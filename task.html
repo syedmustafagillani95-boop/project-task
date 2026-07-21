@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Catering Services</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    padding:30px;
+}
+
+.pamphlet{
+    width:1200px;
+    margin:auto;
+    display:flex;
+    background:#fff;
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+}
+
+.panel{
+    width:33.33%;
+    padding:30px;
+    border-right:1px solid #ddd;
+}
+
+.panel:last-child{
+    border-right:none;
+}
+
+.cover{
+    background:#8B0000;
+    color:white;
+    text-align:center;
+}
+
+.cover h1{
+    font-size:42px;
+    margin-top:80px;
+}
+
+.cover h2{
+    margin:20px 0;
+    font-size:24px;
+    color:#FFD700;
+}
+
+.cover p{
+    margin-top:20px;
+    line-height:1.7;
+}
+
+.section-title{
+    color:#8B0000;
+    margin-bottom:15px;
+    border-bottom:3px solid #FFD700;
+    padding-bottom:8px;
+}
+
+ul{
+    margin-left:20px;
+    line-height:2;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    margin-top:20px;
+}
+
+.service{
+    background:#fff4e6;
+    padding:12px;
+    border-left:5px solid #8B0000;
+    border-radius:5px;
+}
+
+.contact{
+    background:#8B0000;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    margin-top:30px;
+}
+
+.contact h3{
+    color:#FFD700;
+    margin-bottom:10px;
+}
+
+.footer{
+    margin-top:25px;
+    text-align:center;
+    font-weight:bold;
+    color:#8B0000;
+}
+
+.price-box{
+    background:#fff8dc;
+    padding:15px;
+    margin-top:20px;
+    border-radius:8px;
+}
+
+.quote{
+    margin-top:30px;
+    font-style:italic;
+    text-align:center;
+    color:#555;
+}
+</style>
+
+</head>
+<body>
+
+<div class="pamphlet">
+
+    <!-- FRONT COVER -->
+    <div class="panel cover">
+
+        <h1>Elite Catering</h1>
+
+        <h2>Making Every Event Delicious</h2>
+
+        <p>
+            Weddings<br>
+            Birthday Parties<br>
+            Corporate Events<br>
+            Family Gatherings<br>
+            Outdoor Catering
+        </p>
+
+        <br><br>
+
+        <h3>Fresh Food • Elegant Service • Affordable Prices</h3>
+
+    </div>
+
+    <!-- INSIDE -->
+    <div class="panel">
+
+        <h2 class="section-title">About Us</h2>
+
+        <p>
+            Elite Catering provides premium catering services for all kinds
+            of events. Our experienced chefs prepare delicious meals using
+            fresh ingredients while our professional staff ensures excellent
+            customer service.
+        </p>
+
+        <br>
+
+        <h2 class="section-title">Our Services</h2>
+
+        <div class="services">
+
+            <div class="service">Wedding Catering</div>
+            <div class="service">Birthday Parties</div>
+            <div class="service">Corporate Events</div>
+            <div class="service">BBQ Catering</div>
+            <div class="service">Buffet Service</div>
+            <div class="service">Home Events</div>
+
+        </div>
+
+        <div class="price-box">
+
+            <h3>Why Choose Us?</h3>
+
+            <ul>
+                <li>Professional Chefs</li>
+                <li>Fresh Ingredients</li>
+                <li>Customized Menus</li>
+                <li>Affordable Packages</li>
+                <li>On-Time Service</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- BACK -->
+    <div class="panel">
+
+        <h2 class="section-title">Our Menu</h2>
+
+        <ul>
+            <li>Biryani</li>
+            <li>Chicken Karahi</li>
+            <li>BBQ Platter</li>
+            <li>Mutton Qorma</li>
+            <li>Fresh Salads</li>
+            <li>Chinese Cuisine</li>
+            <li>Desserts</li>
+            <li>Soft Drinks</li>
+        </ul>
+
+        <div class="quote">
+            "We Don't Just Serve Food, We Create Memories."
+        </div>
+
+        <div class="contact">
+
+            <h3>Contact Us</h3>
+
+            <p>
+                📍 Your Company Address<br><br>
+
+                📞 +92 300 1234567<br><br>
+
+                ✉ info@elitecatering.com<br><br>
+
+                🌐 www.elitecatering.com
+            </p>
+
+        </div>
+
+        <div class="footer">
+            BOOK YOUR EVENT TODAY!
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
